@@ -1,0 +1,42 @@
+// ejercicio 4
+
+let nombre = "Alexander";
+let apellido = "Ramirez";
+
+console.log(`Mi nombre es ${nombre}`);
+console.log(`Mi apellido es ${apellido}`);
+
+
+let estudiante = nombre + " " + apellido;
+
+console.log(`Mi nombre es ${nombre}`);
+console.log(`Mi apellido es ${apellido}`);
+console.log(`Me identifico como estudiante ${estudiante}`);
+
+let estudianteMayus = estudiante.toUpperCase();
+
+console.log(`Mi nombre en mayúsculas es ${estudianteMayus}`);
+
+let estudianteMinus = estudiante.toLowerCase();
+
+console.log(`Mi nombre en minusculas es ${estudianteMinus}`);
+
+let  numLetrasEstudiante = estudiante.length;
+
+console.log(`El numero de letras en estudiante ${numLetrasEstudiante}`);
+
+let PrimerLetraNombre = nombre.charAt(0);
+
+console.log(`La primera letra de mi nombre es ${PrimerLetraNombre}`);
+
+let UltimeLetraApellido = apellido.charAt(apellido.length-1);
+
+console.log(`La ultima letra de mi apellido es ${UltimeLetraApellido}`);
+
+let estudianteSinEspacios = estudiante.replace(" ", "");
+
+console.log(`Elimina espacios de la variable ${estudianteSinEspacios}`);
+
+let nombreEnEstudiante = estudiante.includes(nombre);
+
+console.log(`Si el nombre esta en la variable ${nombreEnEstudiante}`)
